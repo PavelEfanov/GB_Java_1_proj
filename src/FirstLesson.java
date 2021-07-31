@@ -1,19 +1,19 @@
 public class FirstLesson {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //Задание 1
         printThreeWords();
         checkSumSign();
         printColor();
         compareNumbers();
     }
-    public static void printThreeWords() {
+    public static void printThreeWords() {  //Задание 2
         String fruits = "Orange"
                 + System.lineSeparator() + "Banana"
                 + System.lineSeparator() + "Apple";
         System.out.println(fruits);
     }
 
-    public static void checkSumSign() {
+    public static void checkSumSign() {  //Задание 3
         int a = 12;
         int b = 34;
         if ((a + b) >= 0) {
@@ -21,7 +21,7 @@ public class FirstLesson {
         } else System.out.println("Сумма отрицательная");
     }
 
-    public static void printColor() {
+    public static void printColor() {  //Задание 4
         int value = 100;
         if (value <= 0) {
             System.out.println("Красный");
@@ -30,7 +30,7 @@ public class FirstLesson {
         } else System.out.println("Зеленый");
     }
 
-    public static void compareNumbers() {
+    public static void compareNumbers() {  //Задание 5
         int a = 57;
         int b = -34;
         if (a >= b) {
